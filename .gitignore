@@ -1,0 +1,10 @@
+# Node.js dependencies
+node_modules/
+
+# Client build output
+client/dist/
+
+dist/
+
+# Local environment
+.env
