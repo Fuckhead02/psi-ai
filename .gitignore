@@ -1,10 +1,27 @@
-# Node.js dependencies
+# Dependencies
 node_modules/
 
-# Client build output
-client/dist/
-
+# Build output
 dist/
 
-# Local environment
+# Environment files
 .env
+.env.local
+.env.*.local
+
+# Manus debug logs
+.manus-logs/
+
+# Backup files
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# pnpm
+.pnpm-store/
